@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "roboto";
+    src: url("../../air_planet_fonts/roboto-bold_1-webfont.woff") format("woff"),
+         url("../../air_planet_fonts/roboto-bold_1-webfont.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url("../../air_planet_fonts/roboto-light_1-webfont.woff") format("woff"),
+         url("../../air_planet_fonts/roboto-light_1-webfont.woff2") format("woff2");
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url("../../air_planet_fonts/roboto-lightitalic_1-webfont.woff") format("woff"),
+         url("../../air_planet_fonts/roboto-lightitalic_1-webfont.woff2") format("woff2");
+    font-weight: lighter;
+    font-style: italic;
+}

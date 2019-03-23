@@ -1,0 +1,92 @@
+* {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    box-sizing: border-box;
+    font-family: "roboto", Helvetica, sans-serif;
+    /* line-height: 1.42; */
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+}
+
+.wrapper {
+    overflow: hidden;
+    min-width: 1200px;
+    /* min-height: 100%; */
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper__container {
+    flex: 1;
+}
+
+.container {
+    display: flex; /*Для создания колонок*/
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container__left-col, 
+.container__right-col {
+    display: flex; /*для организации элементов внутри подблоков*/
+    flex: 1; /*для полного заполнения контейнера тремя подблоками имеющими равную ширину*/ 
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    min-height: 77px;
+
+}
+
+.container__right-col {
+    justify-content: flex-end;
+    margin-right: 22px;
+}
+
+.container__left-col {
+    margin-left: 22px;
+}
+
+.page-content {
+    order: 10;
+    width: 73.75%;
+    height: 100%;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 26.25%;
+    order: -10;
+   
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+:focus::-webkit-input-placeholder {
+    color: transparent
+}
+
+:focus::-moz-placeholder {
+    color: transparent
+}
+
+:focus:-moz-placeholder {
+    color: transparent
+}
+
+:focus:-ms-input-placeholder {
+    color: transparent
+}

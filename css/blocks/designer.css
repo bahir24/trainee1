@@ -1,0 +1,18 @@
+.designer {
+    
+    font-size: 14px;
+    /* margin: 10px 10px 10px 10px; */
+    max-width: 233px;   /*  минимальная ширина (будет сужаться если не останется места) */
+    line-height: 18px;
+    margin-left: 16px;
+}
+
+.designer__loftschool {
+    color: white; /*изменяем цвет ссылки*/
+    font-weight: bold;
+    text-decoration: none; /*убираем ниэнее подчеркивание*/
+}
+
+.designer__name {
+    font-weight: bold;
+}

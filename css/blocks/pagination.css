@@ -1,0 +1,95 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding-right: 30px;
+}
+
+.pagination__display { 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   
+    font-size: 14px;
+    /* line-height: 14px; */
+    /* padding: 6px 0; */
+    color: #656464; 
+    flex: 3;
+    margin-right: 8px;
+
+}
+
+.pagination__controls {
+    display: flex;  
+    font-family: "roboto";
+    flex: 5; 
+}
+
+.pagination__page-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    font-family: "roboto";
+    text-decoration: none;
+    font-size: 14px;
+    /* line-height: 14px; */
+    width: 100%;
+    height: 100%;
+    
+}
+
+.pagination__prev, 
+.pagination__next {
+    display: block;
+    min-width: 25px;
+    margin-right: 8px;
+    
+    
+}
+
+.pagination__prev-link, .pagination__next-link {
+    display: block;
+    height: 100%;
+    /* width: 25px; */
+    text-decoration: none;
+    color: #000;
+}
+
+.pagination__prev-link {
+    background-image: url('../../air_planet_png/pagination/Pagination_prev.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pagination__next-link {
+    background-image: url('../../air_planet_png/pagination/pagination_next.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pagination__pages {
+    display: flex;  
+}
+
+.pagination__page {
+    /* display: flex;
+    justify-content: center;
+    align-content: center; */
+    border: none;
+    min-width: 25px;
+    height: 25px;
+
+    /* min-width: 20px; */
+
+}
+
+.pagination__active-page {
+    background-color: #4b73b5;
+    border-radius: 1px;
+
+}
+
+.pagination__active-page > a {
+    color: white;
+}

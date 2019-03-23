@@ -1,0 +1,31 @@
+.breadcrumbs {
+    margin: 30px 0px 24px;
+}
+
+.breadcrumbs__list {
+    display: flex;
+    font-size: 14px;
+    font-style: italic;
+   
+    /* padding-bottom: 24px; */
+    /* padding-left: 5px; */
+
+}
+
+.breadcrumbs__item {
+    color: #4b73b5;
+    margin-left: 2px;
+}
+
+.breadcrumbs__link {
+    color: #4b73b5;
+}
+
+.breadcrumbs__item:nth-child(n+2):before {
+    content: "/";
+}
+
+.breadcrumbs__item:last-child, 
+.breadcrumbs__item:last-child a {
+    color: #000;
+}

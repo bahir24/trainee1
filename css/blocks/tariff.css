@@ -1,0 +1,132 @@
+.tariff {
+    margin-bottom: 49px;
+    width: 100%;
+}
+
+.tariff__head {
+    font-size: 49px;
+    font-weight: bold;
+    margin-bottom: 28px;
+
+}
+
+.tariff__block {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;   
+    list-style-position: outside;
+    margin-bottom: 58px;
+}
+
+.tariff__type {
+    
+    box-sizing: content-box;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    width: 86.3492%;    
+    font-size: 18px;
+    margin: 0 18px;
+    border: 1px solid #e8e9ed;
+}
+
+/* .tariff__type:nth-child(2n+1)  {  
+    border: none;
+} */
+
+.tariff__type:nth-child(n+2)  {  
+    display: none;
+}
+
+.tariff__label {
+    background-color: #4b73b5;
+    box-sizing: border-box;
+    width: 72px;
+    height: 72px;
+    border: none;
+    margin-bottom: 31px;
+    border-radius: 34px;
+    display: none;
+}
+
+
+
+.tariff__label-flower {
+    background-image: url('../../air_planet_png/tariff_icon/flower.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tariff__label-star {
+    background-image: url('../../air_planet_png/tariff_icon/star.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tariff__label-palette {
+    background-image: url('../../air_planet_png/tariff_icon/palette.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tariff__description {
+    padding: 28px 46px 0 43px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 100%; */
+}
+
+.tariff__description:before {
+    content: "Топ-тариф";
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 28px;
+}
+
+.tariff__name {
+    text-align: center;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.3px;
+    font-weight: bold;
+    margin-bottom: 19px;
+}
+
+.tariff__character {
+    /* text-align: center; */
+    margin-bottom: 12px; 
+    line-height: 30px;
+}
+
+.tariff__offer {
+    margin-bottom: 1px;
+    /* padding-left: 32px; */
+}
+
+.tariff__services {        
+    margin-bottom: 14px; 
+    
+}
+
+.tariff__services::before {
+    content: "\2022";
+    margin-right: 18px;
+    /* position: absolute; */
+    /* margin-left: -27px; */
+}
+
+.tariff__price {   
+    text-align: center;
+    font-size: 54px;
+    font-weight: light-italic;
+    /* letter-spacing: 1px; */
+    padding-left: 8px;
+}
+
+.tariff__price::first-letter {
+    font-size: 30px;
+    vertical-align: 3px;
+    margin-right: 3px;
+}

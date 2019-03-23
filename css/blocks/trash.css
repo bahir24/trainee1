@@ -1,0 +1,281 @@
+.myreview {
+    display: flex;
+     margin: auto;
+     width: 64%;
+     min-height: 425px;
+     /* bottom: 50px; */
+     background-color: #f5f5f5;
+     font-size: 12px;
+     line-height: 30px;
+     margin-bottom: 49px;
+ }
+ 
+ 
+ 
+ .myreview__container {
+     margin: auto;
+     width: 80%;
+     min-height: 328px;
+     
+ 
+ }
+ 
+ .
+ 
+ .myreview__head {
+     font-size: 49px;
+     line-height: 38px;
+     font-weight: bold;
+     margin-bottom: 20px;
+ }
+ 
+ .myreview__insert {
+     justify-content: space-between;
+     display: flex;
+     flex-wrap: wrap;
+ }
+ 
+ .myreview__name,
+ .myreview__autor,
+ .myreview__head-text {
+     line-height: 30px;
+ }
+ 
+ .myreview__autor {
+     width: 48%;
+ }
+ 
+ .myreview__autor-head {
+     font-size: 14px;
+     cursor: pointer;
+ }
+ 
+ .myreview__text {
+     width: 100%;
+     min-height: 120px;
+     margin-bottom: 10px;
+ }
+ 
+ 
+ .myreview__autor-insert {
+     padding-left: 10px;
+     font-size: 14px;
+     width: 96%;
+     min-height: 45px;
+     margin-bottom: 10px;
+     border: none;
+ }
+ 
+ .myreview__text-input {
+     box-sizing: border-box;
+     padding: 6px;
+     font-size: 14px;
+     border-color: #1c5bc3;
+ }
+ 
+ .myreview__text-input::-webkit-input-placeholder {
+     color: black;
+ }
+ 
+ .myreview__text-input:-moz-placeholder {
+     color: black;
+ }
+ 
+ .myreview__text-input::-moz-placeholder {
+     color: black;
+ }
+ 
+ .myreview__text-input:-ms-input-placeholder {
+     color: black;
+ }
+ 
+ .myreview__text-input:focus::-webkit-input-placeholder {
+     color: transparent
+ }
+ 
+ .myreview__text-input:focus:-moz-placeholder {
+     color: transparent
+ }
+ 
+ .myreview__text-input:focus::-moz-placeholder {
+     color: transparent
+ }
+ 
+ .myreview__text-input:focus:-ms-input-placeholder {
+     color: transparent
+ }
+ 
+ .myreview__text-input {
+     width: 100%;
+     min-height: 76%;
+    
+ }
+ 
+ .nyreview__avatar {
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .myreview__avatar-yes,
+ .myreview__avatar-no {
+     display: none;
+ }
+ 
+ 
+ 
+ .myreview__avatar-yes-style,
+ .myreview__avatar-no-style {
+     font-size: 14px;
+     margin-right: 20px;
+     cursor: pointer;
+ }
+ 
+ 
+ .myreview__avatar-no-style::before,
+ .myreview__avatar-yes-style::before {
+     content: url('../../air_planet_png/forms/Radio_enable.png');   
+     position: relative;
+    top: 5px;
+    margin-right: 6px;
+ }
+ 
+ .myreview__avatar-no:checked + .myreview__avatar-no-style::before,
+ .myreview__avatar-yes:checked + .myreview__avatar-yes-style::before {
+     content: url('../../air_planet_png/forms/radio-checked-point.png');
+     display: inline-block;
+     position: relative;
+     
+ }
+ 
+ .myreview__avatar-no:checked + .myreview__avatar-no-style,
+ .myreview__avatar-yes:checked + .myreview__avatar-yes-style {
+     color: #1c5bc3;
+ }
+ 
+ .myreview__send {
+     align-self: flex-end;
+     cursor: pointer;
+     width: 154px;
+     height: 45px;
+     border: 0px;
+     background-color: #4b73b5;
+     border-radius: 4px;
+ }
+ 
+ .myreview__send-mark {
+     text-transform: uppercase;
+     color: #fff;
+     font-weight: bold;
+     letter-spacing: 2.4px;
+     display: block;
+ }
+ 
+ .myreview__send-mark::after {
+     content: url('../../air_planet_png/forms/send_butt.png');
+     position: relative;
+     top: 2px;
+     margin-left: 10px;
+     
+ }
+
+ /* форма старая */
+
+
+ .designer {
+    text-align: left;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.designer__name {
+    font-weight: bold;
+}
+
+.designer__loftschool {
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+ .feed-back__message::-webkit-input-placeholder {
+    color:#000000; 
+}
+
+.feed-back__message:focus::-webkit-input-placeholder {
+    color:transparent; 
+}
+
+.feed-back__message::-moz-placeholder {
+    color:#000000; 
+}
+
+.feed-back__message:focus::-moz-placeholder {
+    color:transparent; 
+}
+
+.feed-back__message:-moz-placeholder {
+    color:#000000; 
+}
+.feed-back__message:focus:-moz-placeholder {
+    color:transparent; 
+}
+
+.feed-back__message:-ms-input-placeholder {
+    color:#000000; 
+}
+
+.feed-back__message:focus:-ms-input-placeholder {
+    color:transparent; 
+}
+
+/* plaseholder для textarea */
+<div class="tariff">
+    <h2 class="tariff__head">Тарифы</h2>
+    <ul class="tariff__block">
+        <li class="tariff__type">
+            <div class="tariff__label tariff__label-flower"></div>
+            <div class="tariff__description">
+                <h3 class="tariff__name">Стандарт</h3>
+                <p class="tariff__character">Создан для вашего комфортного отдыха
+                </p>
+                <ul class="tariff__offer">
+                    <li class="tariff__services">Питание включено</li>
+                    <li class="tariff__services">Багаж (5 кг)</li>
+                    <li class="tariff__services">Детское кресло</li>
+                </ul>
+                <div class="tariff__price">$19</div>
+            </div>
+        </li>
+        <li class="tariff__type">
+            <div class="tariff__label tariff__label-star"></div>
+            <div class="tariff__description">
+                <h3 class="tariff__name">Премиум</h3>
+                <p class="tariff__character">Для любителей хороших впечатлений
+                </p>
+                <ul class="tariff__offer">
+                    <li class="tariff__services">Питание включено</li>
+                    <li class="tariff__services">Багаж (5 кг)</li>
+                    <li class="tariff__services">Детское кресло</li>
+                </ul>
+                <div class="tariff__price">$39</div>
+            </div>
+        </li>
+        <li class="tariff__type">
+            <div class="tariff__label tariff__label-palette"></div>
+            <div class="tariff__description">
+                <h3 class="tariff__name">Лакшери</h3>
+                <p class="tariff__character">Всё самое лучшее и незабываемое
+                </p>
+                <ul class="tariff__offer">
+                    <li class="tariff__services">Питание включено</li>
+                    <li class="tariff__services">Багаж (5 кг)</li>
+                    <li class="tariff__services">Детское кресло</li>
+                </ul>
+                <div class="tariff__price">$99</div>
+            </div>
+        </li>
+    </ul>
+</div>
+/* старый блок с тарифами */

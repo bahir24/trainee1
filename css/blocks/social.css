@@ -1,0 +1,138 @@
+.social {
+    margin: 0 auto;
+}
+
+
+.social__head {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.social__icons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social__item {
+    margin-right: 10px; /*отталкиваем соседние ссылки вправо*/
+}
+
+.social__link {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-size: 0px;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.social__link-vk::before {
+    content: url('../../air_planet_png/social_icons/vk.png');
+}
+
+.social__link-fb::before {
+    content: url('../../air_planet_png/social_icons/fb.png');   
+}
+
+.social__link-gl::before {
+    content: url('../../air_planet_png/social_icons/google.png');  
+}
+
+.social__link-tw::before {
+    content: url('../../air_planet_png/social_icons/twitter.png');   
+}
+
+.social__link-mail::before {
+    content: url('../../air_planet_png/social_icons/mail.png');  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .social {
+    text-align: left;
+}
+
+.social__head {
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.social__icons {
+    
+    display: flex;
+    align-items: stretch;
+    min-height: 20px;
+}
+
+.social__icon {
+    display: block;
+    margin-right: 10px;
+    text-align: center;
+    
+    
+      
+}
+
+.social__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 10px;
+    font-size: 0;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+}
+
+.social__link-vk::before {
+    content: url('../../air_planet_png/social_icons/vk.png');
+    display: block;
+    
+    padding: auto 0;
+}
+
+.social__link-fb::before {
+    content: url('../../air_planet_png/social_icons/fb.png');
+    display: block;
+    
+}
+
+.social__link-gl::before {
+    content: url('../../air_planet_png/social_icons/google.png');
+    display: block;
+    
+}
+
+.social__link-tw::before {
+    content: url('../../air_planet_png/social_icons/twitter.png');
+    display: block;
+    
+}
+
+.social__link-mail::before {
+    content: url('../../air_planet_png/social_icons/mail.png');
+    display: block;
+    
+} */

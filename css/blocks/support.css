@@ -1,0 +1,19 @@
+.support {
+    margin: 0 auto;
+    
+    text-align: center;
+    
+}
+
+.support__link-site {
+    font-weight: bold;
+    color: #fff;
+
+}
+
+.support__tel {
+    display: inline;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}

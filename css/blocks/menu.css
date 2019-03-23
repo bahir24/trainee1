@@ -1,0 +1,47 @@
+.menu {
+  margin: 0;
+  /* padding-top: 32px;
+  padding-left: 21px; */
+  margin-bottom: 11px;
+}
+
+/* .menu-list {
+    display: flex;
+} */
+
+.menu__item {
+    display: inline-flex;
+  /* margin-bottom: 29px; */
+  margin-right: 91px;
+}
+
+.menu__item-active {
+  filter: brightness(0);
+}
+
+.menu__link {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+  color: #4b73b5;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+}
+
+.menu__index::before {
+  content: url('../../air_planet_png/menu_icons/main_icon.png');
+  margin-right: 18px;
+}
+
+.menu__reviews::before {
+  content: url('../../air_planet_png/menu_icons/feed_icon.png');
+  margin-right: 16px;
+}
+
+.menu__team::before {
+  content: url('../../air_planet_png/menu_icons/team_icon.png');
+  margin-right: 13px;
+}

@@ -1,0 +1,20 @@
+.reservation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    min-height: 170px;
+    font-size: 18px;
+    line-height: 30px;
+    background-color: #4b73b5;
+    background-image: url('../../air_planet_png/reviews/pattern_reservation.png');
+    background-size: cover;
+    color: #fff;
+    /* margin-bottom: 10px; */
+    margin: 5px 25px 30px 20px;
+    width: 87%;
+    padding: 23px 5px;
+}
+
+
+

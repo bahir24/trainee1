@@ -1,0 +1,95 @@
+.team {
+    box-sizing: border-box;
+    margin-bottom: 35px;
+    margin-top: 38px;
+}
+
+.team__head {
+    font-size: 49px;
+    line-height: 40px;
+    font-weight: bold;
+    margin-bottom: 47px;
+    
+    
+}
+
+.team__people {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.team__person {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 32%;
+    height: 20%;
+    margin-bottom:44px;
+    margin-right: 11px;
+}
+
+.team__person-avatar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4b73b5;
+    border-radius: 50%;
+    /* z-index: 1; */
+    width: 56%;
+    /* height: 40%; */
+    margin-bottom: 17px;
+}
+
+.team__person-pic {
+    opacity: 0.5;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.team__person-avatar-name {
+    display: block;
+    position: absolute;
+    /* text-transform: uppercase; */
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    
+}
+
+
+.team__person-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    /* padding: 0 16px; */
+}
+
+.team__person-name {
+    padding: 0 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.team__person-position {
+    font-size: 14px;
+    font-weight: bold;
+    color: #4b73b5;
+    margin-bottom: 7px;
+}
+
+.team__person-about {
+    font-size: 14px;
+    /* letter-spacing: 0.1px; */
+    padding: 0px 16px;
+    line-height: 21px;
+    text-align: center;
+}
